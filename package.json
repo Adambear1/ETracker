@@ -1,24 +1,26 @@
 {
-  "name": "ETracker",
+  "name": "mern",
   "version": "1.0.0",
-  "description": "My Employee Index application is designed to show my ability to put together a react application that utilizes an external API call to an employee database and places the list of employees with their photo, name, email, and phone number. The employee index is searchable by name. As you search for an employee, the list of employees automatically renders all employee's that match your search.",
-  "main": "index.js",
-  "dependencies": {
-    "gh-pages": "^3.1.0"
-  },
-  "devDependencies": {},
+  "description": "Mern Demo",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Adambear1/ETracker.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Adambear1/ETracker/issues"
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
   },
-  "homepage": "https://github.com/Adambear1/ETracker#readme"
+  "dependencies": {
+    "express": "^4.16.3",
+    "if-env": "^1.0.4"
+  }
 }
