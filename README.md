@@ -24,14 +24,13 @@ To set up your dev environment, please follow the steps below.
 
 ## Built With
 
-* [Bootstrap](https://getbootstrap.com/) - The CSS framework used
-* [React](https://reactjs.org/) - Java Script Library
-* [RandomUser API](https://randomuser.me/) - User Seed Data API 
-
+- [Bootstrap](https://getbootstrap.com/) - The CSS framework used
+- [React](https://reactjs.org/) - JavaScript Library
+- [RandomUser API](https://randomuser.me/) - User Seed Data API
 
 ## Authors
 
-* **Nicholas Goudeau** - *Full application work* - [ngoudeau2012](https://github.com/ngoudeau2012)
+- **Adam Birgenheier** - _Full application work_ - [Adambear1](https://github.com/Adambear1)
 
 ## License
 
@@ -39,4 +38,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Original concept was given to me through the Trilogy Full-stack Web Development Bootcamp.
+- Original concept was given to me through the Trilogy Full-stack Web Development Bootcamp.
