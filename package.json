@@ -1,0 +1,24 @@
+{
+  "name": "ETracker",
+  "version": "1.0.0",
+  "description": "My Employee Index application is designed to show my ability to put together a react application that utilizes an external API call to an employee database and places the list of employees with their photo, name, email, and phone number. The employee index is searchable by name. As you search for an employee, the list of employees automatically renders all employee's that match your search.",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adambear1/ETracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adambear1/ETracker/issues"
+  },
+  "homepage": "https://github.com/Adambear1/ETracker#readme"
+}
