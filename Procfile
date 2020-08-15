@@ -1,1 +1,1 @@
-web : cd employee_index_react
+web: npm start
