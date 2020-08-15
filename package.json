@@ -4,7 +4,7 @@
   "description": "Mern Demo",
   "main": "server.js",
   "scripts": {
-    "start": "cd client && npm run start",
+    "start": "cd client && npm start",
     "client": "cd client && npm run start",
     "seed": "node scripts/seedDB.js",
     "install": "cd client && npm install",
