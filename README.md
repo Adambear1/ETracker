@@ -1,6 +1,7 @@
 # Employee Index
 
 My Employee Index application is designed to show my ability to put together a react application that utilizes an external API call to an employee database and places the list of employees with their photo, name, email, and phone number. The employee index is searchable by name. As you search for an employee, the list of employees automatically renders all employee's that match your search.
+### View Deployed Repo [HERE](https://adambear1.github.io/ETracker/)
 
 ## Application Preview
 
